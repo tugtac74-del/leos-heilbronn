@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Leo’s Bar Lounge</title>
 <meta property="og:title" content="Leo’s Bar Lounge">
-<meta property="og:description" content="Bar &amp; Lounge in Obersulm-Willsbach. Getränke, Snacks und Kaffeesatz lesen.">
+<meta property="og:description" content="Bar &amp; Lounge in Obersulm-Willsbach. Getränke, Kleine Küche und Kaffeesatz lesen.">
 <meta property="og:image" content="https://leos-heilbronn.de/logo.png">
 <meta property="og:url" content="https://leos-heilbronn.de/">
 <meta property="og:type" content="website">
@@ -15,8 +15,8 @@
 <link rel="icon" href="logo.png">
 <link rel="apple-touch-icon" href="logo.png">
 
-<meta name="description" content="Leo’s Bar Lounge in Obersulm-Willsbach: Getränke, Snacks, Löwenwort des Tages und Kaffeesatz lesen bei Leo’s.">
-<link rel="stylesheet" href="leos.css?v=3">
+<meta name="description" content="Leo’s Bar Lounge in Obersulm-Willsbach: Getränke, Kleine Küche, Löwenwort des Tages und Kaffeesatz lesen bei Leo’s.">
+<link rel="stylesheet" href="leos.css?v=4">
 </head>
 <body>
 <a class="skip" href="#start">Zum Inhalt</a>
@@ -27,70 +27,165 @@
     <h1 class="logo-h"><img class="logo" src="logo.png" alt="Leo’s Bar Lounge" width="1200" height="780"></h1>
     <p class="motto">Dein Platz. Deine Leute. Dein Leo’s.</p>
   </div>
-  <a class="losung" href="#events">
-    <span class="losung-k">Löwenwort des Tages</span>
-    <span class="losung-w">Löwenherz</span>
-  </a>
+  <p class="bald"><b>Wir renovieren.</b> Bald neu in Willsbach.</p>
   <nav class="knoepfe" aria-label="Bereiche">
-    <a class="knopf hell" href="#karte"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M4 4h16l-8 9zM12 13v7M8 20h8"/></svg><span>Getränke und Snacks</span></a>
+    <a class="knopf hell" href="#karte"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M4 4h16l-8 9zM12 13v7M8 20h8"/></svg><span>Getränke und Kleine Küche</span></a>
     <a class="knopf" href="#kaffeesatz"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M4 8h12v5a6 6 0 0 1-12 0zM16 9h2a2 2 0 0 1 0 4h-2M3 21h16"/></svg><span>Leo’s liest deinen Kaffeesatz</span></a>
     <a class="knopf" href="#freunde"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M4 7h16v12H4zM4 7l8 6 8-6"/></svg><span>Für Freunde hinterlassen</span></a>
     <a class="knopf" href="#events"><svg aria-hidden="true" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></svg><span>Events und Aktionen</span></a>
     <a class="knopf" href="#tisch"><svg aria-hidden="true" viewBox="0 0 24 24"><circle cx="8" cy="8" r="3"/><circle cx="16" cy="8" r="3"/><path d="M2 20a6 6 0 0 1 12 0M10 20a6 6 0 0 1 12 0"/></svg><span>Tisch und Geburtstag</span></a>
     <a class="knopf" href="#anfahrt"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M12 21s-7-6-7-11a7 7 0 0 1 14 0c0 5-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg><span>Anfahrt und Kontakt</span></a>
   </nav>
-  <p class="status" id="status">Mo bis Mi 15 bis 1 Uhr, Do bis Sa 15 bis 3 Uhr, So 15 bis 24 Uhr</p>
-  <p class="fuss-links"><a href="https://www.instagram.com/leos.heilbronn/" rel="noopener">Instagram</a> <a href="https://www.facebook.com/profile.php?id=61597054072724" rel="noopener">Facebook</a> <a href="https://www.google.com/maps/search/?api=1&amp;query=L%C3%B6wensteiner+Str.+7%2C+74182+Obersulm-Willsbach" rel="noopener">Google Maps</a> <a href="#impressum">Impressum</a> <a href="#datenschutz">Datenschutz</a></p>
+  <a class="losung" href="#events">
+    <span class="losung-k">Löwenwort des Tages, ab Eröffnung</span>
+    <span class="losung-w" data-losung>Löwenherz</span>
+  </a>
+  <p class="status">Ab Eröffnung: Mo bis Mi 15 bis 1 Uhr, Do bis Sa 15 bis 3 Uhr, So 15 bis 24 Uhr</p>
+  <p class="fuss-links"><a href="https://www.instagram.com/leos.heilbronn/" target="_blank" rel="noopener">Instagram</a> <a href="https://www.facebook.com/profile.php?id=61597054072724" target="_blank" rel="noopener">Facebook</a> <a href="https://www.google.com/maps/search/?api=1&amp;query=L%C3%B6wensteiner+Str.+7%2C+74182+Obersulm-Willsbach" target="_blank" rel="noopener">Google Maps</a> <a href="#impressum">Impressum</a> <a href="#datenschutz">Datenschutz</a></p>
   <p class="klein mitte">Raucherlokal, Zutritt ab 18 Jahren</p>
 </main>
 
 <!-- KARTE -->
 <section id="karte" class="seite unter">
   <a class="zurueck" href="#start">Zurück</a>
-  <h2>Getränke und Snacks</h2>
-  <p class="stunde">Leos Stunde, täglich 15 bis 18 Uhr: Feierabend-Preis auf Pils und Weinschorle</p>
-  <nav class="chips" aria-label="Kategorien">
-    <a href="#k-bier">Bier</a><a href="#k-wein">Wein</a><a href="#k-long">Longdrinks</a><a href="#k-cock">Cocktails</a><a href="#k-shot">Shots</a><a href="#k-fla">Flaschen</a><a href="#k-af">Alkoholfrei</a><a href="#k-kaf">Kaffee</a><a href="#k-snack">Snacks</a>
-  </nav>
-
+  <h2>Getränke und Kleine Küche</h2>
+  <p class="stunde">Leos Stunde ab Eröffnung, täglich 15 bis 18 Uhr: Feierabend-Preis auf Pils und Weinschorle</p>
+  <!-- KARTE START -->
+  <div class="empf">
+    <h3>Leo’s empfiehlt</h3>
+    <div class="empf-reihe">
+      <a class="empf-karte" href="#k-cock"><b>Leo</b><span>kräftig und warm: Bourbon, Honig, Zitrone, Ginger Beer</span><i class="offen">Preis folgt</i></a>
+      <a class="empf-karte" href="#k-cock"><b>Löwin</b><span>fruchtig und prickelnd: Gin, Himbeere, Zitrone, Prosecco</span><i class="offen">Preis folgt</i></a>
+      <a class="empf-karte" href="#k-snack"><b>Leo’s Brett für Zwei</b><span>Ein Brett, zwei Gläser, ein guter Abend.</span><i>15,90</i></a>
+    </div>
+  </div>
+  <div class="wahl"><a class="hell" href="#k-bier">Getränke</a><a href="#k-snack">Kleine Küche</a></div>
+  <nav class="chips" aria-label="Kategorien"><a href="#k-bier">Bier</a><a href="#k-cock">Cocktails</a><a href="#k-long">Longdrinks</a><a href="#k-shot">Shots</a><a href="#k-fla">Flaschen</a><a href="#k-wein">Wein</a><a href="#k-af">Alkoholfrei</a><a href="#k-kaf">Kaffee</a><a href="#k-spirit">Spirituosen</a><a href="#k-snack">Küche</a></nav>
   <h3 id="k-bier">Bier und Radler</h3>
   <ul class="karte">
-    <li><span>Pils vom Fass<small>0,3 l · frisch gezapft</small></span><b class="offen">Preis folgt</b></li><li><span>Pils vom Fass<small>0,5 l · frisch gezapft</small></span><b class="offen">Preis folgt</b></li>
-    <li><span>Hefeweizen<small>0,5 l · Flasche</small></span><b class="offen">Preis folgt</b></li>
-    <li><span>Radler<small>0,5 l · Flasche</small></span><b class="offen">Preis folgt</b></li>
-    <li><span>Alkoholfreies Bier<small>0,5 l · Flasche</small></span><b class="offen">Preis folgt</b></li>
+    <li><span class="n">Pils vom Fass<sup>A</sup><small>0,3 l, 0,5 l</small></span><b class="offen">Preis folgt</b></li>
+    <li><span class="n">Hefeweizen (Flasche)<sup>A</sup><small>0,5 l</small></span><b class="offen">Preis folgt</b></li>
+    <li><span class="n">Radler<sup>A</sup><small>0,5 l</small></span><b class="offen">Preis folgt</b></li>
+    <li><span class="n">Alkoholfreies Bier<sup>A</sup><small>0,5 l</small></span><b class="offen">Preis folgt</b></li>
+  </ul>
+  <p class="dazu">Dazu: <a href="#k-snack">Leo’s Bier Vesper</a> 4,50</p>
+  <h3 id="k-cock">Cocktails und Spritz</h3>
+  <ul class="karte">
+    <li class="tipp"><span class="n">Leo<sup>3</sup><small>kräftig und warm: Bourbon, Honig, Zitrone, Ginger Beer</small></span><b class="offen">Preis folgt</b></li>
+    <li class="tipp"><span class="n">Löwin<sup>3,O</sup><small>fruchtig und prickelnd: Gin, Himbeere, Zitrone, Prosecco</small></span><b class="offen">Preis folgt</b></li>
+    <li><span class="n">Aperol Spritz<sup>3,O</sup><small>Aperol, Prosecco, Soda, Orange</small></span><b class="offen">Preis folgt</b></li>
+    <li><span class="n">Hugo<sup>O</sup><small>Holunderblüte, Prosecco, Minze, Limette</small></span><b class="offen">Preis folgt</b></li>
+    <li><span class="n">Mojito<small>Rum, Limette, Minze, Soda</small></span><b class="offen">Preis folgt</b></li>
+    <li><span class="n">Caipirinha<small>Cachaça, Limette, Rohrzucker</small></span><b class="offen">Preis folgt</b></li>
+    <li><span class="n">Moscow Mule<sup>3</sup><small>Wodka, Limette, Ginger Beer</small></span><b class="offen">Preis folgt</b></li>
+    <li><span class="n">Gin Basil Smash<small>Gin, Basilikum, Zitrone</small></span><b class="offen">Preis folgt</b></li>
+    <li class="tipp"><span class="n">Leo’s Mokka Martini<sup>1</sup><small>Wodka, Kaffeelikör, Mokka</small></span><b class="offen">Preis folgt</b></li>
+    <li><span class="n">Sex on the Beach<small>Wodka, Pfirsich, Orange, Cranberry</small></span><b class="offen">Preis folgt</b></li>
+    <li><span class="n">Virgin Mojito<small>alkoholfrei: Limette, Minze, Soda</small></span><b class="offen">Preis folgt</b></li>
+    <li><span class="n">Lion’s Ginger<sup>3</sup><small>Leo ohne Alkohol: Ginger Beer, Honig, Zitrone, Minze</small></span><b class="offen">Preis folgt</b></li>
+  </ul>
+  <h3 id="k-long">Longdrinks</h3>
+  <ul class="karte">
+    <li><span class="n">Gin Tonic<sup>2</sup><small>4 cl</small><small>Gin, Tonic Water, Limette</small></span><b class="offen">Preis folgt</b></li>
+    <li><span class="n">Whisky Cola<sup>1,3,4</sup><small>4 cl</small><small>Blended Whisky, Cola</small></span><b class="offen">Preis folgt</b></li>
+    <li><span class="n">Cuba Libre<sup>1,3,4</sup><small>4 cl</small><small>Weißer Rum, Cola, Limette</small></span><b class="offen">Preis folgt</b></li>
+    <li><span class="n">Wodka Bull<sup>1,5</sup><small>4 cl</small><small>Wodka, Energy</small></span><b class="offen">Preis folgt</b></li>
+    <li><span class="n">Wodka Lemon<sup>2</sup><small>4 cl</small><small>Wodka, Bitter Lemon</small></span><b class="offen">Preis folgt</b></li>
+    <li><span class="n">Jacky Cola<sup>1,3,4</sup><small>4 cl</small><small>Jack Daniel’s, Cola</small></span><b class="offen">Preis folgt</b></li>
+    <li class="tipp"><span class="n">Aslan Sütü<small>4 cl</small><small>Löwenmilch: Rakı, Wasser, Eis</small></span><b class="offen">Preis folgt</b></li>
+  </ul>
+  <h3 id="k-shot">Shots</h3>
+  <ul class="karte">
+    <li><span class="n">Kurzer (Kräuter)</span><b class="offen">Preis folgt</b></li>
+    <li><span class="n">Jägermeister<sup>3</sup></span><b class="offen">Preis folgt</b></li>
+    <li><span class="n">Kleiner Feigling</span><b class="offen">Preis folgt</b></li>
+    <li><span class="n">Pfeffi<sup>3</sup></span><b class="offen">Preis folgt</b></li>
+    <li><span class="n">Berliner Luft<sup>3</sup></span><b class="offen">Preis folgt</b></li>
+    <li><span class="n">Tequila</span><b class="offen">Preis folgt</b></li>
+    <li><span class="n">Ouzo</span><b class="offen">Preis folgt</b></li>
+    <li><span class="n">Rakı</span><b class="offen">Preis folgt</b></li>
+    <li><span class="n">Sambuca</span><b class="offen">Preis folgt</b></li>
+    <li><span class="n">Wodka pur</span><b class="offen">Preis folgt</b></li>
+    <li class="unterkopf">Cocktail-Shots</li>
+    <li><span class="n">B52<sup>G</sup><small>Kaffeelikör, Baileys, Orangenlikör</small></span><b class="offen">Preis folgt</b></li>
+    <li><span class="n">Baby Guinness<sup>G</sup><small>Kaffeelikör mit Baileys-Haube</small></span><b class="offen">Preis folgt</b></li>
+    <li><span class="n">Lemon Drop<small>Wodka, Zitrone, Zuckerrand</small></span><b class="offen">Preis folgt</b></li>
+    <li><span class="n">Kamikaze<small>Wodka, Orangenlikör, Limette</small></span><b class="offen">Preis folgt</b></li>
+    <li><span class="n">Sauerkirsch-Shot<small>Wodka, Kirschlikör, Sauerkirschsaft</small></span><b class="offen">Preis folgt</b></li>
+    <li><span class="n">Bloody Shot<sup>D,L</sup><small>Wodka, Tomate, Tabasco</small></span><b class="offen">Preis folgt</b></li>
+    <li><span class="n">Mexikaner<sup>D,L</sup><small>Tequila, Tomate, Chili, Pfeffer</small></span><b class="offen">Preis folgt</b></li>
+    <li><span class="n">Mokka-Shot<sup>1</sup><small>Kaffeelikör, Wodka, Mokka</small></span><b class="offen">Preis folgt</b></li>
+  </ul>
+  <h3 id="k-fla">Flaschenservice</h3>
+  <ul class="karte">
+    <li><span class="n">Wodka 0,7 l<small>mit 4 × 0,2 l Mixer und Eis</small></span><b class="offen">Preis folgt</b></li>
+    <li><span class="n">Gin 0,7 l<small>mit 4 × 0,2 l Mixer und Eis</small></span><b class="offen">Preis folgt</b></li>
+    <li><span class="n">Whisky 0,7 l<small>mit 4 × 0,2 l Mixer und Eis</small></span><b class="offen">Preis folgt</b></li>
+    <li><span class="n">Rum 0,7 l<small>mit 4 × 0,2 l Mixer und Eis</small></span><b class="offen">Preis folgt</b></li>
+    <li><span class="n">Rakı 0,7 l<small>mit Wasser und Eis, am Tisch serviert</small></span><b class="offen">Preis folgt</b></li>
   </ul>
   <h3 id="k-wein">Wein und Sekt</h3>
-  <ul class="karte"><li><span>Weinschorle<small>0,25 l</small></span><b class="offen">Preis folgt</b></li><li><span>Weißwein<small>0,2 l</small></span><b class="offen">Preis folgt</b></li><li><span>Trollinger<small>0,2 l · Rotwein</small></span><b class="offen">Preis folgt</b></li><li><span>Sekt<small>0,1 l</small></span><b class="offen">Preis folgt</b></li></ul>
-  <h3 id="k-long">Longdrinks</h3>
-  <ul class="karte"><li><span>Gin Tonic<small>4 cl Gin, Tonic</small></span><b class="offen">Preis folgt</b></li><li><span>Whisky Cola<small>4 cl Whisky, Cola</small></span><b class="offen">Preis folgt</b></li><li><span>Wodka Bull<small>4 cl Wodka, Energy</small></span><b class="offen">Preis folgt</b></li></ul>
-  <h3 id="k-cock">Cocktails</h3>
   <ul class="karte">
-    <li><span>Leo<small>unser Whiskey-Drink</small></span><b class="offen">Preis folgt</b></li>
-    <li><span>Löwin<small>unser Cocktail</small></span><b class="offen">Preis folgt</b></li>
+    <li><span class="n">Weinschorle weiß/rot<sup>O</sup><small>0,25 l, 0,5 l</small><small>Wein &amp; Sprudel gespritzt</small></span><b class="offen">Preis folgt</b></li>
+    <li><span class="n">Riesling (Württemberg)<sup>O</sup><small>0,2 l</small><small>Weißwein, trocken</small></span><b class="offen">Preis folgt</b></li>
+    <li class="tipp"><span class="n">Trollinger<sup>O</sup><small>0,2 l</small><small>Rotwein, leicht &amp; fruchtig</small></span><b class="offen">Preis folgt</b></li>
+    <li><span class="n">Lemberger<sup>O</sup><small>0,2 l</small><small>Rotwein, kräftig</small></span><b class="offen">Preis folgt</b></li>
+    <li><span class="n">Sekt<sup>O</sup><small>0,1 l</small><small>Sekt trocken</small></span><b class="offen">Preis folgt</b></li>
+    <li><span class="n">Sekt Flasche<sup>O</sup><small>0,75 l</small><small>Sekt trocken, 0,75 l</small></span><b class="offen">Preis folgt</b></li>
   </ul>
-  <h3 id="k-shot">Shots und Spirituosen</h3>
-  <ul class="karte"><li><span>Kurzer<small>2 cl</small></span><b class="offen">Preis folgt</b></li><li><span>Whisky<small>4 cl</small></span><b class="offen">Preis folgt</b></li><li><span>Gin<small>4 cl</small></span><b class="offen">Preis folgt</b></li><li><span>Wodka<small>4 cl</small></span><b class="offen">Preis folgt</b></li><li><span>Rakı<small>4 cl</small></span><b class="offen">Preis folgt</b></li></ul>
-  <h3 id="k-fla">Flaschenservice</h3>
-  <ul class="karte"><li><span>Wodka<small>0,7 l · mit 4 Mixern und Eis</small></span><b class="offen">Preis folgt</b></li><li><span>Gin<small>0,7 l · mit 4 Mixern und Eis</small></span><b class="offen">Preis folgt</b></li><li><span>Whisky<small>0,7 l · mit 4 Mixern und Eis</small></span><b class="offen">Preis folgt</b></li></ul>
+  <p class="dazu">Dazu: <a href="#k-snack">Kleines Käsebrett</a> 6,90</p>
   <h3 id="k-af">Alkoholfrei</h3>
-  <ul class="karte"><li><span>Mineralwasser<small>0,5 l</small></span><b class="offen">Preis folgt</b></li><li><span>Apfelschorle<small>0,5 l</small></span><b class="offen">Preis folgt</b></li><li><span>Cola, Fanta, Sprite<small>0,33 l</small></span><b class="offen">Preis folgt</b></li><li><span>Saft<small>0,2 l · Apfel oder Orange</small></span><b class="offen">Preis folgt</b></li><li><span>Energy<small>0,25 l</small></span><b class="offen">Preis folgt</b></li></ul>
-  <h3 id="k-kaf">Kaffee und Heißgetränke</h3>
   <ul class="karte">
-    <li><span>Türkischer Mokka<small><a href="#kaffeesatz">Danach lesen wir deinen Kaffeesatz</a></small></span><b class="offen">Preis folgt</b></li>
-    <li><span>Kaffee</span><b class="offen">Preis folgt</b></li><li><span>Espresso</span><b class="offen">Preis folgt</b></li><li><span>Tee<small>Kännchen</small></span><b class="offen">Preis folgt</b></li><li><span>Çay<small>türkischer Tee im Tulpenglas</small></span><b class="offen">Preis folgt</b></li>
+    <li><span class="n">Mineralwasser<small>0,5 l</small></span><b class="offen">Preis folgt</b></li>
+    <li><span class="n">Apfelschorle<small>0,5 l</small></span><b class="offen">Preis folgt</b></li>
+    <li><span class="n">Cola / Fanta / Sprite<sup>1,3,4</sup><small>0,33 l</small></span><b class="offen">Preis folgt</b></li>
+    <li><span class="n">Spezi<sup>1,3</sup><small>0,33 l</small></span><b class="offen">Preis folgt</b></li>
+    <li><span class="n">Tonic / Bitter Lemon / Ginger Ale<sup>2</sup><small>0,2 l</small></span><b class="offen">Preis folgt</b></li>
+    <li><span class="n">Saft (Apfel / Orange)<small>0,2 l</small></span><b class="offen">Preis folgt</b></li>
+    <li><span class="n">Energy<sup>1,5</sup><small>0,25 l</small></span><b class="offen">Preis folgt</b></li>
+    <li><span class="n">Ayran<sup>G</sup><small>0,25 l</small></span><b class="offen">Preis folgt</b></li>
   </ul>
-  <h3 id="k-snack">Snacks und kalte Küche</h3>
+  <h3 id="k-kaf">Kaffee, Mokka und Çay</h3>
   <ul class="karte">
-    <li><span>Leo’s Bier Vesper<small>Landjäger, Salzbrezeln, Gewürzgurke</small></span><b>4,50 €</b></li>
-    <li><span>Obazda und Salzgebäck<small>Bayerische Käsecreme mit Salzgebäck</small></span><b>4,90 €</b></li>
-    <li><span>Nachos<small>Tortilla-Chips, Salsa, Käsedip, Jalapeños</small></span><b>5,90 €</b></li>
-    <li><span>Nachos zum Teilen<small>große Portion, zwei Dips und Sour Cream</small></span><b>9,50 €</b></li>
-    <li><span>Night Baguette<small>Schwarzwälder Schinken, Bergkäse</small></span><b>6,50 €</b></li>
-    <li><span>Kleine Weinplatte<small>Bergkäse, Camembert, Trauben, Walnüsse</small></span><b>6,90 €</b></li>
-    <li><span>Genussplatte für Zwei<small>Käse, Schinken, Landjäger, Trauben, Oliven, Feigensenf, Baguette</small></span><b>15,90 €</b></li>
+    <li><span class="n">Türkischer Mokka<sup>1</sup><small>im Cezve, auf Wunsch mit Kaffeesatz-Lesen, <a href="#kaffeesatz">Kaffeesatz lesen</a></small></span><b class="offen">Preis folgt</b></li>
+    <li><span class="n">Mokka mit Lokum<sup>1,H</sup><small>Türkischer Mokka &amp; Lokum</small></span><b class="offen">Preis folgt</b></li>
+    <li><span class="n">Kaffee<sup>1</sup><small>Filterkaffee</small></span><b class="offen">Preis folgt</b></li>
+    <li><span class="n">Espresso<sup>1</sup></span><b class="offen">Preis folgt</b></li>
+    <li><span class="n">Cappuccino / Milchkaffee<sup>1,G</sup></span><b class="offen">Preis folgt</b></li>
+    <li><span class="n">Tee<small>Auswahl aus Teebeuteln</small></span><b class="offen">Preis folgt</b></li>
+    <li><span class="n">Çay<small>türkischer Schwarztee im Tulpenglas, zum Spieltisch</small></span><b class="offen">Preis folgt</b></li>
+    <li><span class="n">Çay-Runde<small>vier Gläser Çay für den Spieltisch</small></span><b class="offen">Preis folgt</b></li>
+    <li><span class="n">Elma Çayı<small>Türkischer Apfeltee</small></span><b class="offen">Preis folgt</b></li>
   </ul>
-  <p class="klein">Alle Speisen kalt. Alle Preise in Euro inkl. MwSt. Informationen zu Zusatzstoffen und Allergenen bekommst du an der Bar.</p>
+  <h3 id="k-spirit">Spirituosen</h3>
+  <details class="spirit"><summary>Alle Spirituosen 4 cl anzeigen</summary>
+  <ul class="karte">
+    <li><span class="n">Wodka<small>4 cl</small></span><b class="offen">Preis folgt</b></li>
+    <li><span class="n">Gin<small>4 cl</small></span><b class="offen">Preis folgt</b></li>
+    <li><span class="n">Whisky<small>4 cl</small></span><b class="offen">Preis folgt</b></li>
+    <li><span class="n">Bourbon<small>4 cl</small></span><b class="offen">Preis folgt</b></li>
+    <li><span class="n">Jack Daniel’s<small>4 cl</small></span><b class="offen">Preis folgt</b></li>
+    <li><span class="n">Rum weiß<small>4 cl</small></span><b class="offen">Preis folgt</b></li>
+    <li><span class="n">Rum braun<small>4 cl</small></span><b class="offen">Preis folgt</b></li>
+    <li><span class="n">Tequila<small>4 cl</small></span><b class="offen">Preis folgt</b></li>
+    <li><span class="n">Rakı<small>4 cl</small></span><b class="offen">Preis folgt</b></li>
+    <li><span class="n">Weinbrand<small>4 cl</small></span><b class="offen">Preis folgt</b></li>
+  </ul>
+  </details>
+  <h3 id="k-snack">Kleine Küche</h3>
+  <ul class="karte">
+    <li class="tipp"><span class="n">Leo’s Brett für Zwei<small>2 Käse, Schinken, Landjäger, Trauben, Oliven, Feigensenf, Baguette</small><small><span class="sau">mit Schweinefleisch, auch ohne Schwein: mehr Käse und Oliven</span></small><small><em>Ein Brett, zwei Gläser, ein guter Abend.</em></small></span><b>15,90</b></li>
+    <li><span class="n">Kleines Käsebrett<small>Bergkäse, Camembert, Trauben, Walnüsse</small></span><b>6,90</b></li>
+    <li><span class="n">Leo’s Bier Vesper<small>Landjäger, Salzbrezeln, Gewürzgurke</small><small><span class="sau">mit Schweinefleisch</span></small></span><b>4,50</b></li>
+    <li><span class="n">Obazda<small>Bayerische Käsecreme mit Mini-Salzbrezeln und Gewürzgurke</small></span><b>4,90</b></li>
+    <li><span class="n">Nachos<small>Tortilla-Chips, Salsa, Käsedip und Jalapeños, Dips im separaten Schälchen</small></span><b><span>für dich 5,90</span><span>zum Teilen 9,50</span></b></li>
+    <li><span class="n">Leo’s Schinken-Käse-Baguette<small>Schwarzwälder Schinken, Bergkäse</small><small><span class="sau">mit Schweinefleisch</span></small></span><b>6,50</b></li>
+    <li><span class="n">Käse-Baguette<small>Bergkäse, ohne Fleisch</small></span><b class="offen">Preis folgt</b></li>
+    <li><span class="n">Oliven<small>kleine Schale Oliven</small></span><b class="offen">Preis folgt</b></li>
+  </ul>
+  <p class="klein">Alle Preise in Euro inkl. MwSt. Alkohol nur ab 18 Jahren. 1 koffeinhaltig, 2 chininhaltig, 3 mit Farbstoff, 4 mit Phosphat, 5 mit Süßungsmittel. Allergene: A Gluten, D Fisch, G Milch, H Schalenfrüchte, L Sellerie, O Sulfite. Weitere Informationen zu Zusatzstoffen und Allergenen bekommst du an der Bar.</p>
+  <p class="mitte prost">Prost und Şerefe.</p>
+  <!-- KARTE END -->
 </section>
 
 <!-- KAFFEESATZ -->
@@ -98,25 +193,24 @@
   <a class="zurueck" href="#start">Zurück</a>
   <img class="fal-bild" src="kart_kaffeesatz.jpg" alt="Goldene Spielkarte mit Mokkatasse" width="880" height="1168">
   <h2>Leo’s liest deinen Kaffeesatz</h2>
+  <p class="fal-satz">Ab Eröffnung: Mokka bestellen, Tasse umdrehen, wir lesen deinen Kaffeesatz an der Bar.</p>
   <ol class="schritte">
-    <li><b>1</b><span>Türkischen Mokka austrinken</span></li>
+    <li><b>1</b><span>Türkischen Mokka bestellen und austrinken</span></li>
     <li><b>2</b><span>Tasse umdrehen, drei Minuten warten</span></li>
-    <li><b>3</b><span>Von oben fotografieren</span></li>
-    <li><b>4</b><span>Wir deuten die Zeichen</span></li>
+    <li><b>3</b><span>Wir lesen die Zeichen an der Bar</span></li>
   </ol>
-  <label class="btn" for="foto">Tasse fotografieren</label>
-  <input id="foto" type="file" accept="image/*" capture="environment" class="unsichtbar">
-  <p class="klein">Eine Deutung pro Tasse. KI-Deutung zur Unterhaltung.</p>
+  <p class="klein">Zur Unterhaltung.</p>
 </section>
 
 <!-- FREUNDE -->
 <section id="freunde" class="seite unter">
   <a class="zurueck" href="#start">Zurück</a>
   <h2>Für Freunde hinterlassen</h2>
+  <p class="klein">Ab Eröffnung.</p>
   <ol class="schritte">
     <li><b>1</b><span>Du bestellst an der Bar einen Drink für jemanden, der gerade nicht da ist, und bezahlst ihn gleich.</span></li>
-    <li><b>2</b><span>Wir schreiben den Namen mit goldener Kreide auf unsere schwarze Wand, gleich neben der Treppe.</span></li>
-    <li><b>3</b><span>Wenn die Person in den nächsten 30 Tagen kommt und ihren Namen an der Wand findet, bekommt sie den Drink – mit Grüßen von dir.</span></li>
+    <li><b>2</b><span>Wir schreiben den Namen mit goldener Kreide auf unsere schwarze Wand.</span></li>
+    <li><b>3</b><span>Wenn die Person in den nächsten 30 Tagen kommt und ihren Namen an der Wand findet, bekommt sie den Drink, mit Grüßen von dir.</span></li>
   </ol>
 </section>
 
@@ -124,9 +218,13 @@
 <section id="events" class="seite unter">
   <a class="zurueck" href="#start">Zurück</a>
   <h2>Events und Aktionen</h2>
+  <p class="klein">Alles ab Eröffnung. Termine geben wir bekannt, sobald sie feststehen.</p>
   <div class="kasten"><h3>Leos Stunde</h3><p>Täglich 15 bis 18 Uhr, Feierabend-Preis auf Pils und Weinschorle.</p></div>
-  <div class="kasten"><h3>Löwenwort des Tages</h3><p class="riesig-s">Löwenherz</p><p>Sag es an der Bar und hol dir einen Kurzen aufs Haus. Ein Kurzer pro Person und Abend, ab 18 Jahren.</p></div>
-  <div class="kasten"><h3>Abende bei Leo’s</h3><ul class="liste"><li>Dart</li><li>Karaoke</li><li>Skat, Schocken und Tavla am Spieltisch</li></ul><p class="klein">Termine geben wir zur Eröffnung bekannt.</p></div>
+  <div class="kasten"><h3>Çay und Tavla</h3><p>Türkischer Tee im Tulpenglas, dazu Tavla oder Okey: täglich 15 bis 18 Uhr und montags bis mittwochs den ganzen Abend. Zum Spieltisch gibt es die Çay-Runde für vier.</p></div>
+  <div class="kasten"><h3>Spieltisch</h3><p>Tavla, Okey, Schach, Skat und Schocken: Die Spiele liegen am Spielregal, frag an der Bar.</p></div>
+  <div class="kasten"><h3>Löwenwort des Tages</h3><p class="riesig-s" data-losung>Löwenherz</p><p>Sag das Löwenwort an der Bar und hol dir einen Kurzen (Kräuter) aufs Haus. Ein Kurzer pro Person und Abend, ab 18 Jahren.</p></div>
+  <div class="kasten"><h3>Abende bei Leo’s</h3><ul class="liste"><li>Dart</li><li>Karaoke</li></ul></div>
+  <div class="kasten"><h3>Leos Letzte</h3><p>Wenn die Glocke läutet, gibt es die letzte Runde.</p></div>
   <p class="klein">Alkohol nur ab 18 Jahren.</p>
 </section>
 
@@ -149,7 +247,7 @@
     <li><span>Donnerstag bis Samstag</span><b>15 bis 3 Uhr</b></li>
     <li><span>Sonntag</span><b>15 bis 24 Uhr</b></li>
   </ul>
-  <p class="knopfreihe"><a class="btn" href="https://www.google.com/maps/search/?api=1&amp;query=L%C3%B6wensteiner+Str.+7%2C+74182+Obersulm-Willsbach" rel="noopener">In Karte öffnen</a> <a class="btn leer" href="tel:+491736512728">Anrufen</a></p>
+  <p class="knopfreihe"><a class="btn" href="https://www.google.com/maps/search/?api=1&amp;query=L%C3%B6wensteiner+Str.+7%2C+74182+Obersulm-Willsbach" target="_blank" rel="noopener">In Karte öffnen</a> <a class="btn leer" href="tel:+491736512728">Anrufen</a></p>
   <ul class="liste"><li>Zahlung: bar und Karte</li><li>WLAN: Name und Passwort an der Bar</li></ul>
 </section>
 
@@ -170,7 +268,7 @@
   <p><b>Verantwortlich:</b> Rüya Tuğtaç, Löwensteiner Str. 7, 74182 Obersulm-Willsbach, leos.heilbronn@gmail.com</p>
   <p><b>Hosting:</b> Diese Seite wird bei GitHub Pages (GitHub Inc., USA) gehostet. Beim Aufruf verarbeitet der Hoster technisch notwendige Daten wie IP-Adresse, Datum und Uhrzeit (Art. 6 Abs. 1 lit. f DSGVO). Wir selbst speichern keine Besucherdaten.</p>
   <p><b>Keine Cookies, kein Tracking:</b> Wir setzen keine Cookies, keine Analyse-Tools und laden keine Schriften oder Inhalte von Drittanbietern.</p>
-  <p><b>Links:</b> Bei Klick auf Instagram, Google Maps oder WhatsApp gelten die Datenschutzbestimmungen dieser Anbieter.</p>
+  <p><b>Links:</b> Bei Klick auf Instagram, Facebook, Google Maps oder WhatsApp gelten die Datenschutzbestimmungen dieser Anbieter.</p>
   <p><b>Deine Rechte:</b> Auskunft, Berichtigung, Löschung, Einschränkung, Widerspruch und Beschwerde bei einer Aufsichtsbehörde (Art. 15 bis 21 und 77 DSGVO).</p>
 </section>
 
@@ -178,22 +276,20 @@
 
 <script>
 (() => {
-  const s = document.getElementById('status'); const n = new Date();
-  const d = n.getDay(); const h = n.getHours() + n.getMinutes() / 60;
-  const zu = { 0: 24, 1: 25, 2: 25, 3: 25, 4: 27, 5: 27, 6: 27 };
-  const gestern = (d + 6) % 7;
-  const offen = (h >= 15 && h < zu[d]) || (h < zu[gestern] - 24);
-  const bis = h >= 15 ? zu[d] % 24 : zu[gestern] - 24;
-  s.textContent = 'Wir renovieren – bald neu in Willsbach';
+  // Löwenwort des Tages: 31 Wörter, nach Tag im Monat
+  const w = ['Löwenherz', 'Rudel', 'Mähne', 'Mut', 'Stolz', 'Feuer', 'Gold', 'Zusammen', 'Heimat', 'Wärme', 'Funke', 'Freunde', 'Nachtschwärmer', 'Krone', 'Savanne', 'Neugier', 'Leichtigkeit', 'Zuversicht', 'Gastlichkeit', 'Lachen', 'Abenteuer', 'Mitternacht', 'Kraft', 'Gelassenheit', 'Feierabend', 'Sternenhimmel', 'Glück', 'Brüllen', 'Sonnenglut', 'Übermut', 'Herzlichkeit'];
+  const t = w[new Date().getDate() - 1];
+  document.querySelectorAll('[data-losung]').forEach(el => { el.textContent = t; });
+  // Karte: Sprung zur Kategorie auf derselben Seite
+  document.querySelectorAll('#karte a[href^="#k-"]').forEach(a => a.addEventListener('click', e => {
+    const z = document.querySelector(a.getAttribute('href'));
+    if (!z) return; e.preventDefault();
+    if (location.hash !== '#karte') location.hash = '#karte';
+    requestAnimationFrame(() => z.scrollIntoView({ behavior: 'smooth', block: 'start' }));
+  }));
+  // Druck: Spirituosen aufklappen
+  addEventListener('beforeprint', () => document.querySelectorAll('details').forEach(d => { d.open = true; }));
 })();
-</script>
-<script>
-document.querySelectorAll('.chips a').forEach(a => a.addEventListener('click', e => {
-  const z = document.querySelector(a.getAttribute('href'));
-  if (!z) return; e.preventDefault();
-  if (location.hash !== '#karte') location.hash = '#karte';
-  requestAnimationFrame(() => z.scrollIntoView({ behavior: 'smooth', block: 'start' }));
-}));
 </script>
 </body>
 </html>
