@@ -15,8 +15,8 @@ body { margin: 0; background: var(--color-paper); color: var(--color-ink); font-
 
 .seite { max-width: 520px; margin-inline: auto; padding: var(--space-lg); min-height: 100svh; box-sizing: border-box; }
 .unter { display: none; }
-.unter:target { display: block; }
-body:has(.unter:target) .start { display: none; }
+.unter:target, .unter:has(:target) { display: block; }
+body:has(.unter:target) .start, body:has(.unter :target) .start { display: none; }
 
 .start { background: radial-gradient(ellipse at 50% 0%, var(--color-veil-1), var(--color-paper) 70%); }
 .start-kopf { text-align: center; padding-top: var(--space-lg); }
@@ -81,7 +81,7 @@ h3 { font-size: var(--text-lg); color: var(--color-accent); margin: 0 0 var(--sp
 /* v3 */
 .unter { padding-bottom: var(--space-3xl); }
 .unten { position: fixed; left: 0; right: 0; bottom: 0; display: none; grid-template-columns: repeat(4, minmax(0, 1fr)); max-width: 520px; margin-inline: auto; background: var(--color-paper-2); border-top: var(--rule-hair) solid var(--color-accent); z-index: var(--z-sticky-nav); }
-body:has(.unter:target) .unten { display: grid; }
+body:has(.unter:target) .unten, body:has(.unter :target) .unten { display: grid; }
 .unten a { text-align: center; padding: var(--space-md) var(--space-xs); min-height: 48px; box-sizing: border-box; color: var(--color-ink); text-decoration: none; font-size: var(--text-md); }
 .unten a:hover { color: var(--color-accent); }
 .unten a:active { background: var(--color-paper-3); }
@@ -91,7 +91,7 @@ body:has(.unter:target) .unten { display: grid; }
 .fuss-links a { color: var(--color-ink-2); }
 .mitte { text-align: center; }
 .stunde { border-left: 3px solid var(--color-accent); padding-left: var(--space-sm); color: var(--color-ink-2); }
-.chips { position: sticky; top: 0; z-index: var(--z-sticky); display: flex; gap: var(--space-xs); overflow-x: auto; padding-block: var(--space-sm); background: var(--color-paper); margin-bottom: var(--space-md); }
+.chips { position: sticky; top: 0; z-index: var(--z-sticky); display: flex; flex-wrap: wrap; gap: var(--space-xs); padding-block: var(--space-sm); background: var(--color-paper); margin-bottom: var(--space-md); }
 .chips a { flex: none; padding: var(--space-xs) var(--space-md); border: var(--rule-hair) solid var(--color-accent); border-radius: var(--radius-pill); color: var(--color-ink); text-decoration: none; font-size: var(--text-sm); }
 .chips a:active { background: var(--color-paper-3); }
 .unter h3 { margin-top: var(--space-xl); scroll-margin-top: 64px; }
