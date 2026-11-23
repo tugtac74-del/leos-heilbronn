@@ -136,3 +136,10 @@ body:has(.unter:target) .unten, body:has(.unter :target) .unten { display: grid;
   #karte { display: block; min-height: 0; padding: 0; }
   .karte li { break-inside: avoid; }
 }
+
+/* Menü fotoğrafları (Hermes/GPT Image, 23.11) */
+.kat-bild { display: block; width: 100%; height: auto; aspect-ratio: 3 / 1; object-fit: cover; border-radius: 6px; margin-block: var(--space-xs) var(--space-sm); }
+.karte li.mit-foto { display: grid; grid-template-columns: 72px 1fr auto; gap: var(--space-sm); align-items: start; }
+.karte li.mit-foto .pfoto { width: 72px; height: 72px; object-fit: cover; border-radius: 6px; }
+.karte li.mit-foto .n { min-width: 0; }
+.abbild { opacity: .7; }
