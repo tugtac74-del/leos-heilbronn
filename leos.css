@@ -18,9 +18,7 @@ body { margin: 0; background: var(--color-paper); color: var(--color-ink); font-
 .unter:target { display: block; }
 body:has(.unter:target) .start { display: none; }
 
-.start { background:
-  linear-gradient(to bottom, var(--color-veil-1), var(--color-paper) 62%),
-  url("bar_bg.jpg") center top / cover no-repeat; }
+.start { background: radial-gradient(ellipse at 50% 0%, var(--color-veil-1), var(--color-paper) 70%); }
 .start-kopf { text-align: center; padding-top: var(--space-lg); }
 .logo { width: 76%; height: auto; display: block; margin-inline: auto; }
 .status { color: var(--color-accent); font-size: var(--text-lg); margin: var(--space-sm) 0 var(--space-lg); }
