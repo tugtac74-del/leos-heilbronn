@@ -16,7 +16,7 @@
 <link rel="apple-touch-icon" href="logo.png">
 
 <meta name="description" content="Leo’s Bar Lounge in Obersulm-Willsbach: Getränke, Snacks, Löwenwort des Tages und Kaffeesatz lesen bei Leo’s.">
-<link rel="stylesheet" href="leos.css">
+<link rel="stylesheet" href="leos.css?v=3">
 </head>
 <body>
 <a class="skip" href="#start">Zum Inhalt</a>
@@ -40,7 +40,7 @@
     <a class="knopf" href="#anfahrt"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M12 21s-7-6-7-11a7 7 0 0 1 14 0c0 5-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg><span>Anfahrt und Kontakt</span></a>
   </nav>
   <p class="status" id="status">Mo bis Mi 15 bis 1 Uhr, Do bis Sa 15 bis 3 Uhr, So 15 bis 24 Uhr</p>
-  <p class="fuss-links"><a href="https://www.instagram.com/leos.heilbronn/" rel="noopener">Instagram</a> <a href="https://www.google.com/maps/search/?api=1&amp;query=L%C3%B6wensteiner+Str.+7%2C+74182+Obersulm-Willsbach" rel="noopener">Google Maps</a> <a href="#impressum">Impressum</a> <a href="#datenschutz">Datenschutz</a></p>
+  <p class="fuss-links"><a href="https://www.instagram.com/leos.heilbronn/" rel="noopener">Instagram</a> <a href="https://www.facebook.com/profile.php?id=61597054072724" rel="noopener">Facebook</a> <a href="https://www.google.com/maps/search/?api=1&amp;query=L%C3%B6wensteiner+Str.+7%2C+74182+Obersulm-Willsbach" rel="noopener">Google Maps</a> <a href="#impressum">Impressum</a> <a href="#datenschutz">Datenschutz</a></p>
   <p class="klein mitte">Raucherlokal, Zutritt ab 18 Jahren</p>
 </main>
 
@@ -114,9 +114,9 @@
   <a class="zurueck" href="#start">Zurück</a>
   <h2>Für Freunde hinterlassen</h2>
   <ol class="schritte">
-    <li><b>1</b><span>Drink an der Bar bezahlen</span></li>
-    <li><b>2</b><span>Name deiner Freundin oder deines Freundes kommt auf unsere schwarze Wand</span></li>
-    <li><b>3</b><span>Beim nächsten Besuch löst sie oder er den Drink ein, 30 Tage lang</span></li>
+    <li><b>1</b><span>Du bestellst an der Bar einen Drink für jemanden, der gerade nicht da ist, und bezahlst ihn gleich.</span></li>
+    <li><b>2</b><span>Wir schreiben den Namen mit goldener Kreide auf unsere schwarze Wand, gleich neben der Treppe.</span></li>
+    <li><b>3</b><span>Wenn die Person in den nächsten 30 Tagen kommt und ihren Namen an der Wand findet, bekommt sie den Drink – mit Grüßen von dir.</span></li>
   </ol>
 </section>
 
@@ -186,6 +186,14 @@
   const bis = h >= 15 ? zu[d] % 24 : zu[gestern] - 24;
   s.textContent = 'Wir renovieren – bald neu in Willsbach';
 })();
+</script>
+<script>
+document.querySelectorAll('.chips a').forEach(a => a.addEventListener('click', e => {
+  const z = document.querySelector(a.getAttribute('href'));
+  if (!z) return; e.preventDefault();
+  if (location.hash !== '#karte') location.hash = '#karte';
+  requestAnimationFrame(() => z.scrollIntoView({ behavior: 'smooth', block: 'start' }));
+}));
 </script>
 </body>
 </html>
